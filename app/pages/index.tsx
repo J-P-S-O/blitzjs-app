@@ -6,8 +6,8 @@ const Home = () => (
       <title>Blitz Blog</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-
     <main>
+      <p> This blog was launched with</p>
       <div className="logo">
         <img src="/logo.png" alt="blitz.js" />
       </div>
