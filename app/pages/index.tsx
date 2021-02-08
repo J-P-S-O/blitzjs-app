@@ -26,32 +26,6 @@ const Home = () => (
           <a>/projects</a>
         </Link>
       </p>
-      <div className="buttons">
-        <a
-          className="button"
-          href="https://github.com/blitz-js/blitz/blob/master/USER_GUIDE.md?utm_source=blitz-new&utm_medium=app-template&utm_campaign=blitz-new"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Documentation
-        </a>
-        <a
-          className="button-outline"
-          href="https://github.com/blitz-js/blitz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github Repo
-        </a>
-        <a
-          className="button-outline"
-          href="https://slack.blitzjs.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Slack Community
-        </a>
-      </div>
     </main>
 
     <footer>
