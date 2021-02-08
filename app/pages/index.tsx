@@ -14,7 +14,6 @@ const Home = () => (
       
      
     </main>
-
     <footer>
       <a
         href="https://blitzjs.com?utm_source=blitz-new&utm_medium=app-template&utm_campaign=blitz-new"
@@ -67,6 +66,9 @@ const Home = () => (
         color: #f4f4f4;
         text-decoration: none;
       }
+      footer a:hover{
+        color: #45009d
+      }
 
       .logo {
         margin-bottom: 2rem;
@@ -83,28 +85,6 @@ const Home = () => (
         margin-top: 6rem;
       }
 
-      a.button {
-        background-color: #6700eb;
-        padding: 1rem 2rem;
-        color: #f4f4f4;
-        text-align: center;
-      }
-
-      a.button:hover {
-        background-color: #000000;
-      }
-
-      a.button-outline {
-        border: 2px solid #6700eb;
-        padding: 1rem 2rem;
-        color: #6700eb;
-        text-align: center;
-      }
-
-      a.button-outline:hover {
-        border-color: #000000;
-        color: #000000;
-      }
 
       pre {
         background: #fafafa;
