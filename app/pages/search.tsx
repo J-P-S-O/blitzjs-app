@@ -1,10 +1,17 @@
 import { Head, Link } from "blitz"
-export default (req, res) => {
+export default function(req, res) => {
 <div>
 <Head> 
-<title> You searched for {req.query.q}</title>
+<title> You searched for {req.url.query.q}</title>
 </Head>
+<div> 
 
+
+</div>
+<footer>
+Powered by <a href = "https://blitzjs.com/">Blitz.js></a>
+<a href = "https://github.com/j-p-s-o/blitz-blog">Github</a>
+</footer>
 	<style jsx>{`
       .container {
         min-height: 100vh;
@@ -12,19 +19,6 @@ export default (req, res) => {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      }
-
-      main {
-        padding: 5rem 0;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      main p {
-        font-size: 1.2rem;
       }
 
       footer {
