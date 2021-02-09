@@ -1,12 +1,13 @@
 import { Head, Link } from "blitz"
 export default function(req, res) => {
 <div>
-<Head> 
-<title> You searched for {req.url.query.q}</title>
+<Head>
+<title>Post 1 </title>
 </Head>
-<div> 
+<div>
 
-
+<h1>The blog is up</h1>
+<p> The blog is running! </p>
 </div>
 <footer>
 Powered by <a href = "https://blitzjs.com/">Blitz.js></a>
