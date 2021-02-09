@@ -10,9 +10,12 @@ export default function App(req, res) {
         <p> The blog is running! </p>
       </div>
       <footer>
-        <a href="https://github.com/j-p-s-o/blitz-blog">Github</a>
-
-        <a href="https://blitzjs.com/">Powered by Blitz.js</a>
+        <p>
+          <a href="https://github.com/j-p-s-o/blitz-blog">Github</a>
+        </p>
+        <p>
+          <a href="https://blitzjs.com/">Powered by Blitz.js</a>
+        </p>
       </footer>
       <style jsx>{`
         .container {
