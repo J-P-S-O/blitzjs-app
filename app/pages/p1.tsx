@@ -82,6 +82,9 @@ export default function App(req, res) {
           max-width: 800px;
           margin-top: 3rem;
         }
+        div {
+          align-items: center;
+        }
 
         @media (max-width: 600px) {
           .grid {
