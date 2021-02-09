@@ -1,9 +1,9 @@
 {
-  "name": "blitzjs",
+  "name": "blitz blog",
   "version": "1.0.0",
   "scripts": {
     "start": "blitz start",
-    "dev":"blitz dev",
+    "dev": "blitz dev",
     "studio": "blitz db studio",
     "build": "blitz build",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
