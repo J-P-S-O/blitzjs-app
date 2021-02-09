@@ -1,4 +1,5 @@
-import * as fs from "fs"
+import fs from "fs"
+
 export default function Home(req, res) {
   if (req.method === "POST") {
     console.log(req.path.query.f)
