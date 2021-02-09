@@ -11,6 +11,8 @@ export default function App(req, res) {
       </div>
       <footer>
         <a href="https://github.com/j-p-s-o/blitz-blog">Github</a>
+
+        <a href="https://blitzjs.com/">Powered by Blitz.js</a>
       </footer>
       <style jsx>{`
         .container {
