@@ -1,5 +1,5 @@
 {
-  "name": "blitz blog",
+  "name": "blitzblog",
   "version": "1.0.0",
   "scripts": {
     "start": "blitz start",
