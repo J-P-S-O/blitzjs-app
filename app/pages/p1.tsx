@@ -1,5 +1,5 @@
 import { Head, Link } from "blitz"
-export default function(req, res) => {
+export default function(req, res){
 <div>
 <Head>
 <title>Post 1 </title>
