@@ -2,7 +2,7 @@ import * as fs from "fs"
 export default function Home(req, res) {
   if (req.method === "POST") {
     console.log(req.path.query.f)
-    if (req.headers.Authorization === process.env.BLITZ_PWD) {
+    if (req.path.query.Authorization === process.env.BLITZ_PWD) {
       let path = req.path.query.f
       fs.writeFileSync(path, req.body)
       return (
@@ -17,7 +17,13 @@ export default function Home(req, res) {
     return (
       <div>
         <script src="post.js"></script>
-        <main id="body"></main>
+        <main id="body">
+          <form action="/post">
+            <input type="file" id="myFile" name="f" />
+            <input type="password" id="pwd" name="Authorization"></input>
+            <input type="submit"></input>
+          </form>
+        </main>
         <style jsx>{`
           .container {
             min-height: 100vh;
